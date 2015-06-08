@@ -11,7 +11,7 @@ dialog.
 What I've tried:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-sudo nano /etc/default/grub
+sudo vi /etc/default/grub
 -- GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
 ++ GRUB_CMDLINE_LINUX_DEFAULT=""
 sudo update-grub
