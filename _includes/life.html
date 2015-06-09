@@ -4,7 +4,7 @@ function timeAgo(n){var i=[{name:"second",limit:60,in_seconds:1},{name:"minute",
 var al = function(data) {
   var steps = parseInt(data.googlefit.steps);
   if(steps == 0) steps = 'a thousand';
-  var life = "I've made " + steps.toLocaleString() + " awesome steps today and I've spent " + data.health.age.days.toLocaleString() + " days on earth. Also, my heart beat rate is " + data.health.heartRate.bpm + " bpm measured almost " + timeAgo(data.health.heartRate.timestamp) + ".";
+  var life = "I've made " + steps.toLocaleString() + " awesome steps today and I've spent " + data.health.age.days.toLocaleString() + " days on Earth. Also, my heart beat rate is " + data.health.heartRate.bpm + " bpm measured almost " + timeAgo(data.health.heartRate.timestamp) + ".";
     document.getElementById('life').innerHTML = life;
     //age = setInterval(function() { al_age(data.health.age.date); }, 100);
 };
