@@ -290,6 +290,11 @@ p#life{
   -moz-transition: 3s ease-in;
   -o-transition: 3s ease-in;
   transition: 3s ease-in;
+
+  @include mobile {
+    font-size:14px;
+  }
+
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
