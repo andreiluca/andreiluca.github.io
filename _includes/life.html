@@ -2,7 +2,9 @@
 function timeAgo(n){var i=[{name:"second",limit:60,in_seconds:1},{name:"minute",limit:3600,in_seconds:60},{name:"hour",limit:86400,in_seconds:3600},{name:"day",limit:604800,in_seconds:86400},{name:"week",limit:2629743,in_seconds:604800},{name:"month",limit:31556926,in_seconds:2629743},{name:"year",limit:null,in_seconds:31556926}],e=(new Date-new Date(1e3*n))/1e3;if(5>e)return"now";for(var m=0,o=null;null!==(o=i[m++]);)if(e<o.limit||!o.limit)return e=Math.floor(e/o.in_seconds),e+" "+o.name+(e>1?"s":"")+" ago"}
 
 var al = function(data) {
-  var life = "I've made " + data.googlefit.steps.toLocaleString() + " awesome steps today and I've spent " + data.health.age.days.toLocaleString() + " days on earth. Also my heart beat rate is " + data.health.heartRate.bpm + " bpm measured almost " + timeAgo(data.health.heartRate.timestamp) + ".";
+  var steps = parseInt(data.googlefit.steps);
+  if(steps == 0) steps = 'a thousand';
+  var life = "I've made " + steps.toLocaleString() + " awesome steps today and I've spent " + data.health.age.days.toLocaleString() + " days on earth. Also my heart beat rate is " + data.health.heartRate.bpm + " bpm measured almost " + timeAgo(data.health.heartRate.timestamp) + ".";
     document.getElementById('life').innerHTML = life;
     //age = setInterval(function() { al_age(data.health.age.date); }, 100);
 };
