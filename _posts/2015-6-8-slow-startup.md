@@ -33,3 +33,6 @@ sudo apt-get autoremove
 sudo apt-get install gtkorphan
 sudo gtkorphan
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+I've recently read that Ubuntu 15.04 has slower booting times than previous
+versions.
