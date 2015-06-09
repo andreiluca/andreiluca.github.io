@@ -19,8 +19,8 @@ sudo update-grub
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 sudo vi /etc/default/grub
--- GRUB_CMDLINE_LINUX_DEFAULT="quiet splash acpi=off"
-++ GRUB_CMDLINE_LINUX_DEFAULT=""
+-- GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
+++ GRUB_CMDLINE_LINUX_DEFAULT="quiet splash acpi=off"
 sudo update-grub
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
