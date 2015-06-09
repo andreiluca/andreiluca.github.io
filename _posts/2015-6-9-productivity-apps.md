@@ -9,7 +9,8 @@ title: Productivity apps
 
     [1]: <http://www.workrave.org/>
 
-2.  [RescueTime][2]
+2.  [RescueTime][2] gives you an accurate picture of how you spend your time to
+    help you become more productive every day.
 
     [2]: <https://www.rescuetime.com/>
 
