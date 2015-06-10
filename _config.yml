@@ -56,7 +56,7 @@ baseurl: ""
 markdown: redcarpet
 highlighter: pygments
 permalink: /:title/
-paginate: 5
+paginate: 15
 excerpt_separator: "<!--more-->"
 
 
