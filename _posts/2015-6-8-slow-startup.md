@@ -6,7 +6,6 @@ title: Slow startup
 It takes 20 seconds until the Ubuntu logo appears and another 25 until the login
 dialog.
 
-<!--more--> 
 
 What I've tried:
 
@@ -23,7 +22,7 @@ sudo vi /etc/default/grub
 ++ GRUB_CMDLINE_LINUX_DEFAULT="quiet splash acpi=off"
 sudo update-grub
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+<!--more--> 
 Clean things up:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
