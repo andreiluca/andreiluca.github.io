@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Slow startup
+title: Slow startup on Ubuntu 15.04
 ...
 
 It takes 20 seconds until the Ubuntu logo appears and another 25 until the login
