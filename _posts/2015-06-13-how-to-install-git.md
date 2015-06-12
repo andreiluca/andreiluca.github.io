@@ -17,7 +17,7 @@ git config --global user.name "Your Name"
 git config --global user.email "email@domain.com"
 ```
 
-Set git push to simple
+Set `git push` to `simple`
 
 `simple` means `git push` will push only the current branch to the one that `git pull` would pull from, and also checks that their names match
 
@@ -25,14 +25,15 @@ Set git push to simple
 git config --global push.default simple
 ```
 
-Generate SSH key and save it
+Generate SSH key and save it. 
+SSH keys are a way to identify trusted computers, without involving passwords.
 
 ```
 ssh-keygen -t rsa -b 4096 -C "email@domain.com"
 ssh-add ~/.ssh/id_rsa
 ```
 
-Use `gedit` or your favorite editor to check the ssh key and copy it into your eg. GitHub account
+Use `gedit` or your favorite editor to check the SSH key and copy it into your eg. GitHub account. 
 
 ```
 gedit ~/.ssh/id_rsa.pub
