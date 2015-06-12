@@ -12,7 +12,7 @@ sudo apt-get install git
 
 <!--more-->
 
-Configure Git
+Setup Git
 
 ```
 git config --global user.name "Your Name"
