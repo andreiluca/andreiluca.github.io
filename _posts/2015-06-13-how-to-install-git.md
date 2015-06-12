@@ -17,7 +17,7 @@ git config --global user.email "email@domain.com"
 
 Set git push to simple
 
-`simple` means git push will push only the current branch to the one that git pull would pull from, and also checks that their names match.
+`simple` means `git push` will push only the current branch to the one that `git pull` would pull from, and also checks that their names match
 
 ```
 git config --global push.default simple
