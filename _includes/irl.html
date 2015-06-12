@@ -7,7 +7,7 @@
         var al = function(data) {
             var steps = parseInt(data.googlefit.steps);
             if(steps == 0) steps = 'a thousand';
-            var irl = "I've made " + steps.toLocaleString() + " steps today and I've spent " + data.health.age.days.toLocaleString() + " days on this weird planet called Earth. Also, my heart beat rate is ♥ " + data.health.heartRate.bpm + " bpm measured almost " + timeAgo(data.health.heartRate.timestamp) + " with <a target=\"_blank\" href=\"http://cardiio.com/\">Cardiio</a>.";
+            var irl = "I've made " + steps.toLocaleString() + " steps today and I've spent " + data.health.age.days.toLocaleString() + " days on this weird planet called Earth. Also, my heart beat rate is ♥ " + data.health.heartRate.bpm + " bpm measured almost " + timeAgo(data.health.heartRate.timestamp) + " with <a target=\"_blank\" href=\"http://cardiio.com/?utm_source=ubuntu.andreiluca.com\">Cardiio</a>.";
             document.getElementById('irl').innerHTML = irl;
             sessionStorage.irl = irl;
             //age = setInterval(function() { al_age(data.health.age.date); }, 100);
