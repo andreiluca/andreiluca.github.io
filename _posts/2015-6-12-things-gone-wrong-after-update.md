@@ -10,4 +10,4 @@ Also, for some reason only the first CPU core is recognized. Probably some other
 
 I decided to trash everything and install Ubuntu 14.04
 
-TBC.
+Here we go again!
