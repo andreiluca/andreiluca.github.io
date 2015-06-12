@@ -286,15 +286,10 @@ footer {
 p#irl{
   font-family: Georgia, serif;
   font-size:23px;
-  -webkit-transition: 3s ease-in;
-  -moz-transition: 3s ease-in;
-  -o-transition: 3s ease-in;
-  transition: 3s ease-in;
 
   @include mobile {
     font-size:14px;
   }
-
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
