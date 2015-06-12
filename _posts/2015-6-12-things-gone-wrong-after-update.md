@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Things gone wrong after update
+date: 2015-6-12 08:00:00
 ---
 
 After some recent updates a lot of things are no longer working properly.
