@@ -35,3 +35,7 @@ sudo gtkorphan
 
 I've recently read that Ubuntu 15.04 has slower booting times than previous
 versions.
+
+After having [some issues](/things-gone-wrong-after-update/) with my recent installation of Ubuntu 15.04 I decided to move back to 14.04 which as I learned is a LTS version which stands for Long Term Support. More support. Awesome. 
+
+My startup times seems to be cut in half now, booting in around 27 seconds instead of 50 with the newer version.
