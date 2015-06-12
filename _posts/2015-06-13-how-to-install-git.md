@@ -23,7 +23,7 @@ Set git push to simple
 git config --global push.default simple
 ```
 
-Generate SSH key
+Generate SSH key and save it
 
 ```
 ssh-keygen -t rsa -b 4096 -C "email@domain.com"
