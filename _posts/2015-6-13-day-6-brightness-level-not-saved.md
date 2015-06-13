@@ -16,4 +16,4 @@ Add the following line before `exit 0` and save
 echo 400 > /sys/class/backlight/intel_backlight/brightness
 ````
 
-In my case the maximum value for brightness is 976 so I choose 400.
+In my case the maximum value for brightness seems to be 976 so 400 should be ok.
