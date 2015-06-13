@@ -18,4 +18,4 @@ It seems to be a known permission bug which can be solved by running the followi
 sudo chown -R "$USER:$USER" ~/.dbus
 ```
 
-I've personally set up the backup run daily as I've got a lot of space I'm not planning to use.
+I've personally set up the backup to run daily.
