@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ubuntu backup error notice
+title: Ubuntu Backup error notice
 ---
 
 I wanted to try the Ubuntu backup feature and got the following error, although the backup was completed.
