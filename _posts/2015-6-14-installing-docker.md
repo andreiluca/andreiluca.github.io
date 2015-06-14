@@ -7,7 +7,7 @@ Since Docker [is the future](http://blog.circleci.com/its-the-future/) (satire) 
 
 <!--more-->
 
-If everything is alright you should be able to install it just by running the following
+If everything is alright you should be able to install it just by running the following, otherwise check the [documentation](https://docs.docker.com/installation/ubuntulinux/).
 
 ```
 $ wget -qO- https://get.docker.com/ | sh
