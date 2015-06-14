@@ -39,4 +39,40 @@ docker run -p 80:80 tutum/wordpress
 
 That's pretty awesome and fast, though don't know yet how to make any changes on it.
 
+Show running containers
+
+```
+sudo docker ps
+```
+
+Show all images in your local repository
+
+```
+sudo docker images
+```
+
+Run a container from a specific image
+
+```
+sudo docker run -i -t <image_id || repository:tag> -bash
+```
+
+Start a existed container
+
+```
+sudo docker start -i <image_id>
+```
+
+Exit without shutting down a container
+
+```
+[Ctrl-p] + [Ctrl-q]
+```
+
+Upgrade Docker
+
+```
+wget -N https://get.docker.com/ | sh
+```
+
 TBC.
