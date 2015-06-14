@@ -39,7 +39,7 @@ docker run -p 80:80 tutum/wordpress
 
 That's pretty awesome and fast, though don't know yet how to make any changes on it.
 
-## Docker commands
+## Useful Docker commands
 
 
 Show running containers
