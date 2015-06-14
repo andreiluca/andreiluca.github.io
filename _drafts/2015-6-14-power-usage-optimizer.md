@@ -7,11 +7,5 @@ What could have caused it? I do not know. But I was easily able to fix it by ins
 
 Power usage decreased after using 'tlp' (Ubuntu 15.04 Unity)
 
-You can install TLP by using the below three commands:
-```
-sudo apt-add-repository ppa:linrunner/tlp
-sudo apt-get update
-sudo apt-get install tlp
-```
 
 http://refugeeks.com/use-tlp-to-optimize-the-power-consumption-in-ubuntu/
