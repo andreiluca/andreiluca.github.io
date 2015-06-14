@@ -28,7 +28,7 @@ Personally, I've encountered an error running this command and I had to restart 
 FATA[0000] Post http:///var/run/docker.sock/v1.18/containers/create: dial unix /var/run/docker.sock: no such file or directory. Are you trying to connect to a TLS-enabled daemon without TLS? 
 ```
 
-*Ubuntu is like Windows, small problem: restart, serious problem: reinstall* (/s)
+> *Ubuntu is like Windows, small problem: restart, serious problem: reinstall* (/s)
 
 Run WordPress in Docker *(WP setup will be available at `127.0.0.1`)*
 
