@@ -31,10 +31,11 @@ FATA[0000] Post http:///var/run/docker.sock/v1.18/containers/create: dial unix /
 ```
 
 Run WordPress in Docker *(WP setup will be available at 127.0.0.1)*
-That's pretty awesome and fast, though don't know yet how to make any changes on it.
 
 ```
 docker run -p 80:80 tutum/wordpress
 ```
+
+That's pretty awesome and fast, though don't know yet how to make any changes on it.
 
 TBC.
