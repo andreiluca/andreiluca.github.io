@@ -22,15 +22,15 @@ sudo docker run hello-world
 
 The command above downloads a test image and runs in its container
 
-Personally I've encountered an error running this command and I had to restart the system to make it work after trying some other commands found on StackOverflow to fix this. 
-
-*Ubuntu is like Windows, small problem: restart, serious problem: reinstall* (/s)
+Personally, I've encountered an error running this command and I had to restart the system to make it work after trying some other commands found on StackOverflow to fix this. 
 
 ```
 FATA[0000] Post http:///var/run/docker.sock/v1.18/containers/create: dial unix /var/run/docker.sock: no such file or directory. Are you trying to connect to a TLS-enabled daemon without TLS? 
 ```
 
-Run WordPress in Docker *(WP setup will be available at 127.0.0.1)*
+*Ubuntu is like Windows, small problem: restart, serious problem: reinstall* (/s)
+
+Run WordPress in Docker *(WP setup will be available at `127.0.0.1`)*
 
 ```
 docker pull tutum/wordpress
@@ -60,7 +60,7 @@ Run a container from a specific image
 sudo docker run -i -t <image_id || repository:tag> -bash
 ```
 
-Start a existed container
+Start a existing container
 
 ```
 sudo docker start -i <image_id>
