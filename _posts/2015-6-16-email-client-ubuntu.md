@@ -12,6 +12,8 @@ sudo add-apt-repository ppa:yorba/ppa
 sudo apt-get update && sudo apt-get install geary
 ```
 
+Shortcuts
+
 ```
 [Ctrl+E] - Access Prefernces
 [Ctrl+M] - Access Accounts
