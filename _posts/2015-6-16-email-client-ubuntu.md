@@ -20,3 +20,5 @@ Shortcuts
 [Ctrl+E] - Access Prefernces
 [Ctrl+M] - Access Accounts
 ```
+
+Works well with multiple Google Apps accounts.
