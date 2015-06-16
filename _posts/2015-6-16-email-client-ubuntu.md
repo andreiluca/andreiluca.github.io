@@ -22,3 +22,4 @@ Shortcuts
 ```
 
 Works well with multiple Google Apps accounts.
+It would be nice to be able to hide the top bar and just use shortcuts.
