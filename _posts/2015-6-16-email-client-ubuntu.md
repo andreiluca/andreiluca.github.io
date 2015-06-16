@@ -15,3 +15,4 @@ sudo apt-get update && sudo apt-get install geary
 ```
 [Ctrl+E] - Access Prefernces
 [Ctrl+M] - Access Accounts
+```
