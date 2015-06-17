@@ -7,7 +7,6 @@ Display load usage on CPU, RAM or harddisk
 
 ```
 sudo apt-get install indicator-multiload
-sudo apt-get install indicator-cpufreq
 ```
 
 <!--more-->
