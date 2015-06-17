@@ -9,8 +9,10 @@ shift+alt+3 for active window
 https://screencloud.net/
 
 http://www.noobslab.com/2014/08/useful-panel-indicators-collection-for.html
+
 http://www.howtogeek.com/118908/10-awesome-indicator-applets-for-ubuntus-unity-desktop/
 
+http://www.maketecheasier.com/10-must-have-indicator-applets-for-ubuntu-12-04/
 
 ## Ubuntu indicators applets
 
