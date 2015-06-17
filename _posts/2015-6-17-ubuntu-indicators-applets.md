@@ -20,3 +20,7 @@ sudo apt-get install indicator-sensors lm-sensors
 ```
 
 Share screenshots automatically on [Imgur](http://imgur.com) using [Screencloud](https://screencloud.net/).
+
+```
+Shift+Alt+3 - Active Window
+```
