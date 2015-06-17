@@ -19,12 +19,4 @@ sudo apt-get update
 sudo apt-get install indicator-sensors lm-sensors
 ```
 
-Pushbullet
-
-```
-sudo add-apt-repository ppa:atareao/atareao
-sudo apt-get update
-sudo apt-get install pushbullet-indicator
-```
-
 Share screenshots automatically on [Imgur](http://imgur.com) using [Screencloud](https://screencloud.net/).
