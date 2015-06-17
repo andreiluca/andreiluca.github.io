@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Best Ubuntu indicators"
+title: "Best Ubuntu indicator applets"
 ---
 
 Display load usage on CPU, RAM or harddisk
