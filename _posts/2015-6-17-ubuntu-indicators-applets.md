@@ -10,6 +10,8 @@ sudo apt-get install indicator-multiload
 sudo apt-get install indicator-cpufreq
 ```
 
+<!--more-->
+
 Display temperatures
 
 ```
@@ -26,4 +28,4 @@ sudo apt-get update
 sudo apt-get install pushbullet-indicator
 ```
 
-Share screenshots automatically on [Screencloud](https://screencloud.net/).
+Share screenshots automatically on [Imgur](http://imgur.com) using [Screencloud](https://screencloud.net/).
