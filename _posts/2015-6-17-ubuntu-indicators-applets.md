@@ -14,7 +14,7 @@ sudo apt-get install indicator-multiload
 Display temperatures
 
 ```
-udo add-apt-repository ppa:alexmurray/indicator-sensors-daily
+sudo add-apt-repository ppa:alexmurray/indicator-sensors-daily
 sudo apt-get update
 sudo apt-get install indicator-sensors lm-sensors
 ```
