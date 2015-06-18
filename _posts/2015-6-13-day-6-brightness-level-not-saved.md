@@ -6,9 +6,9 @@ date: 2015-6-13 08:24:00
 
 Open the Terminal and type
 
-```bash
+{% highlight java %}
 sudo gedit /etc/rc.local
-```
+{% endhighlight %}
 
 Add the following line before `exit 0` and save
 
