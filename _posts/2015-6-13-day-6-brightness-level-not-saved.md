@@ -6,9 +6,9 @@ date: 2015-6-13 08:24:00
 
 Open the Terminal and type
 
-{% highlight java %}
+```
 sudo gedit /etc/rc.local
-{% endhighlight %}
+```
 
 Add the following line before `exit 0` and save
 
@@ -17,3 +17,7 @@ echo 400 > /sys/class/backlight/intel_backlight/brightness
 ````
 
 In my case the maximum value for brightness seems to be 976 so 400 should be ok.
+
+```python
+print("hello, world")
+```
