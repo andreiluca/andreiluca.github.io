@@ -12,7 +12,7 @@ sudo gedit /etc/rc.local
 
 Add the following line before `exit 0` and save
 
-````python
+````
 echo 400 > /sys/class/backlight/intel_backlight/brightness
 ````
 
