@@ -6,24 +6,14 @@
     } else {
         var al = function(data) {
             var steps = parseInt(data.googlefit.steps);
-            if(steps == 0) steps = 'a thousand';
+            if(steps == 0) steps = 'a lot of';
             var irl = "I've made " + steps.toLocaleString() + " steps today and I've spent " + data.health.age.days.toLocaleString() + " days on this weird planet called Earth. Also, my heart beat rate is ♥ " + data.health.heartRate.bpm + " bpm measured almost " + timeAgo(data.health.heartRate.timestamp) + " with <a target=\"_blank\" href=\"http://cardiio.com/?utm_source=ubuntu.andreiluca.com\">Cardiio</a>.";
             document.getElementById('irl').innerHTML = irl;
             sessionStorage.irl = irl;
-            //age = setInterval(function() { al_age(data.health.age.date); }, 100);
         };
 
         var alt = document.createElement('script'); alt.type = 'text/javascript'; alt.async = true;
         alt.src = "http://track.andreiluca.com/api/?callback=al";
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(alt, s);
     } // e.ss
-
-    function al_age(bday) {
-        var date = new Date(bday);
-        var now = new Date();
-        var duration = now - date;
-        var years = duration / 31556900000;
-        var majorMinor = years.toFixed(9).toString().split('.');
-        document.getElementById("track-age").innerHTML = majorMinor[0] + ',' + majorMinor[1];
-    }
 </script>
