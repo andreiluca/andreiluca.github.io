@@ -3,6 +3,10 @@ layout: post
 title: Install Spotify on Ubuntu 14.04
 ---
 
+Spotify is probably the best way to listen music online.
+
+<!--more-->
+
 ```
 # 1. Add the Spotify repository signing key to be able to verify downloaded packages
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 94558F59 D2C19886
