@@ -3,7 +3,7 @@ layout: post
 title: Install Spotify on Ubuntu 14.04
 ---
 
-Spotify is probably the best way to listen music online.
+Spotify is probably the best way to listen music online and it's also available on linux operating systems which is awesome. You can install it just by running the following commands:
 
 <!--more-->
 
