@@ -6,7 +6,7 @@ var d = document.documentElement,
 
 if(m == "true") {
   d.classList.add("night-mode");
-  l.textContent = "Ubuntu experience. Welcome back, night owl!";
+  l.textContent = "Ubuntu experience. Sleep mode.";
 }
 
 t.addEventListener("click", function(){
