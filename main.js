@@ -1,10 +1,12 @@
 // Night mode
 var d = document.documentElement,
     t = document.querySelectorAll(".js-toggle-lights")[0],
+    l = document.querySelectorAll(".site-description")[0],
     m = localStorage.getItem("nightmode");
 
 if(m == "true") {
   d.classList.add("night-mode");
+  l.textContent = "Ubuntu experience night.";
 }
 
 t.addEventListener("click", function(){
