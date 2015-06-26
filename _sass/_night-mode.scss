@@ -1,7 +1,8 @@
 body.night-mode{
 	background:#333;
 
-	.masthead{
+	.masthead,
+	.posts > .post{
 		border-color:#666;
 	}
 
@@ -10,7 +11,11 @@ body.night-mode{
 		border-color:#777;
 		color:#FFF;
 	}
-
+	h1,
+	p,
+	.site-name{
+		color:#CCC;
+	}
 	a:hover,
 	a:active{
 		color:#DDD;
