@@ -1,0 +1,19 @@
+body.night-mode{
+	background:#333;
+
+	.masthead{
+		border-color:#666;
+	}
+
+	.highlight{
+		background-color:#999;
+		border-color:#777;
+		color:#FFF;
+	}
+
+	a:hover,
+	a:active{
+		color:#DDD;
+	}
+
+}
