@@ -13,9 +13,11 @@ t.addEventListener("click", function(){
   if(d.classList.contains("night-mode")) {
     d.classList.remove("night-mode");
     localStorage.setItem("nightmode", "false");
+    l.textContent = "Ubuntu experience.";
   } else {
     d.classList.add("night-mode");
     localStorage.setItem("nightmode", "true");
+    l.textContent = "Ubuntu experience. Sleep mode.";
   }
 });
 
