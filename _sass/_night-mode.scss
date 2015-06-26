@@ -16,13 +16,14 @@ html.night-mode{
 	}
 
 	.highlight pre{
-		overflow: hidden;
+		overflow: auto;
 	}
 
 	.wrapper-footer{
 		border-color:#999;
 		background-color: #666;
 	}
+	h1,
 	nav a,
 	.site-name{
 		color:#CCC;
