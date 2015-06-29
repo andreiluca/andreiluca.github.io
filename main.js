@@ -27,9 +27,9 @@ if (sessionStorage.irl) {
             document.getElementById('irl').innerHTML = sessionStorage.irl;
 } else {
         var al = function(data) {
-            var steps = parseInt(data.googlefit.steps);
-            if(steps == 0) steps = 'a lot of';
-            var irl = "I've made " + steps.toLocaleString() + " steps today and I've spent " + data.health.age.days.toLocaleString() + " days on Earth. Also, my heart beat rate is " + data.googlefit.heartRate.bpm + " bpm measured " + timeAgo(data.googlefit.heartRate.timestamp) + ".";
+            var activity = parseInt(data.googlefit.steps);
+            if(activity == 0) activity = "I've made " + activity.toLocaleString() + " steps today and"; else steps = "I'm either sleeping or working. Most likely sleeping.";
+            var irl = activity + " I spent over " + data.health.age.days.toLocaleString() + " days on Earth, my heart beat rate is " + data.googlefit.heartRate.bpm + " bpm measured " + timeAgo(data.googlefit.heartRate.timestamp) + ".";
             document.getElementById('irl').innerHTML = irl;
             sessionStorage.irl = irl;
       };
@@ -48,7 +48,7 @@ SimpleJekyllSearch({
         resultsContainer: document.getElementById('search-results'),
         json: '/search.json',
         searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
-        noResultsText: '<li><img src="http://thecatapi.com/api/images/get?format=src&type=gif" alt="Wait for it..."></li>',
-        limit: 10,
+        noResultsText: '<li><img src="http://thecatapi.com/api/images/get?format=src&type=gif" alt="Wait for it ..."></li>',
+        limit: 5,
         fuzzy: true,
 });
