@@ -292,6 +292,26 @@ p#irl{
   }
 }
 
+
+#search input{
+  font-size:26px;
+  border:0;
+  border-bottom:1px solid #DDD;
+  width:100%;
+  padding:20px 0;
+}
+#search-results{
+  list-style:none;
+  padding:0;
+  margin:0;
+}
+
+#search-results li{
+  border-bottom:1px solid #DDD;
+  padding:20px 0;
+}
+
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "night-mode";
