@@ -152,6 +152,10 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
+
+  @include mobile {
+    margin-bottom:20px;
+  }
 }
 
 .masthead {
@@ -289,6 +293,10 @@ p#irl{
 
   @include mobile {
     font-size:14px;
+    background:#333;
+    color:#eee;
+    padding:10px;
+    margin:0;
   }
 }
 
