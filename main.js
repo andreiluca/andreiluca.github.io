@@ -55,9 +55,7 @@ SimpleJekyllSearch({
 
 function changePlaceholder() {
     var placeHolders = new Array();
-        placeHolders[0] = "Containers are the future";
-        placeHolders[1] = "What are you looking for?";
-        placeHolders[2] = "Type here what bothers you &hellip;";
+        placeHolders[0] = "You can type here &hellip;";
           var x = 0;
           document.getElementById('search-input').placeholder = placeHolders[x];
           x++;
