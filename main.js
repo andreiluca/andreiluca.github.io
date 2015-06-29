@@ -37,7 +37,7 @@ if (sessionStorage.irl) {
         var alt = document.createElement('script'); alt.type = 'text/javascript'; alt.async = true;
         alt.src = "http://track.andreiluca.com/api/?callback=al";
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(alt, s);
-} // e.ss
+}; // e.ss
 
 
 // Jekyll search
@@ -50,5 +50,5 @@ SimpleJekyllSearch({
         searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
         noResultsText: '<li><img src="http://thecatapi.com/api/images/get?format=src&type=gif" alt="Wait for it..."></li>',
         limit: 10,
-        fuzzy: false,
+        fuzzy: true,
 });
