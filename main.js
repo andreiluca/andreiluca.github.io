@@ -52,3 +52,17 @@ SimpleJekyllSearch({
         limit: 5,
         fuzzy: true,
 });
+
+function changePlaceholder() {
+    var placeHolders = new Array(),
+        placeHolders[0] = 'Search for "containers"';
+        placeHolders[1] = 'What are you looking for?';
+          var x = 0;
+          document.getElementsById('search-input')[0].placeholder = placeHolders[x];
+          x++;
+          if(x >= placeHolders.length) {
+               x = 0;
+          }
+          setTimeout('changePlaceholder()', 3000);
+}
+t = setTimeout('changePlaceholder()', 3000);
