@@ -48,7 +48,7 @@ SimpleJekyllSearch({
         resultsContainer: document.getElementById('search-results'),
         json: '/search.json',
         searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
-        noResultsText: '<li><img src="http://thecatapi.com/api/images/get?format=src&type=gif"></li>',
+        noResultsText: '<li><img src="http://thecatapi.com/api/images/get?format=src&type=gif" alt="Wait for it..."></li>',
         limit: 10,
         fuzzy: false,
 });
