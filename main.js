@@ -54,7 +54,7 @@ SimpleJekyllSearch({
 });
 
 function changePlaceholder() {
-    var placeHolders = new Array(),
+    var placeHolders = new Array();
         placeHolders[0] = "Search for ";
         placeHolders[1] = "Search for ";
         placeHolders[2] = "Search for  ";
