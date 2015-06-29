@@ -28,7 +28,7 @@ if (sessionStorage.irl) {
 } else {
         var al = function(data) {
             var activity = parseInt(data.googlefit.steps);
-            if(activity == 0) activity = "I've made " + activity.toLocaleString() + " steps today and"; else steps = "I'm either sleeping or working. Most likely sleeping.";
+            if(activity == 0) activity = "I've made " + activity.toLocaleString() + " steps today and"; else activity = "I'm either sleeping or working. Most likely sleeping.";
             var irl = activity + " I spent over " + data.health.age.days.toLocaleString() + " days on Earth, my heart beat rate is " + data.googlefit.heartRate.bpm + " bpm measured " + timeAgo(data.googlefit.heartRate.timestamp) + ".";
             document.getElementById('irl').innerHTML = irl;
             sessionStorage.irl = irl;
