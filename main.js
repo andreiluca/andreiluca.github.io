@@ -59,8 +59,7 @@ function changePlaceholder() {
         placeHolders[1] = "Search for ";
         placeHolders[2] = "Search for  ";
           var x = 0;
-
-          document.getElementsById('search-input')[0].placeholder = placeHolders[x];
+          document.getElementById('search-input')[0].placeholder = placeHolders[x];
           x++;
           if(x >= placeHolders.length) {
                x = 0;
