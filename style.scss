@@ -290,8 +290,17 @@ footer {
 p#irl{
   font-family: Georgia, serif;
   font-size:23px;
-
+  span{
+    display:none;
+  }
   @include mobile {
+    img{
+        display:none;
+    }
+    span{
+        display:block;
+    }
+
     font-size:14px;
     background:#333;
     color:#eee;
