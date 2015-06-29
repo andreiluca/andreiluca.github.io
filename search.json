@@ -3,11 +3,10 @@
 [
   {% for post in site.posts %}
     {
-      "title"    : "{{ post.title | escape }}",
-      "category" : "{{ post.category }}",
-      "tags"     : "{{ post.tags | join: ', ' }}",
-      "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "date"     : "{{ post.date }}"
+       	"title"    : "{{ post.title | escape }}",
+  		"content" : "{{ post.content | strip_html | strip_newlines | remove:'"' }}"
+      	"url"      : "{{ site.baseurl }}{{ post.url }}",
+      	"date"     : "{{ post.date }}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
