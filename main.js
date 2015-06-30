@@ -61,7 +61,7 @@ if (window.matchMedia("(min-width: 800px)").matches) {
   cctv.watch({
         side : 'left',
         top : '50px',
-        color : 'rgba(0,0,0,.8)'
+        color : 'rgb(51,51,51)'
   });
 
 }
