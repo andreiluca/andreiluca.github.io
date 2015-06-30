@@ -341,6 +341,17 @@ p#ad{
   cursor:pointer;
 }
 
+.g--comments{
+  display:none;
+}
+
+.g--comments-trigger{
+  display:block;
+  padding:20px;
+  text-align:center;
+  border:1px solid #DDD;
+  border-radius:5px;
+}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
