@@ -32,7 +32,14 @@ html.night-mode{
 		background-color:#999;
 		color:#EEE;
 	}
-
+	p#irl{
+	    img{
+        	display:none;
+    	}
+    	span{
+        	display:block;
+    	}
+    }
 	h1,
 	nav a,
 	.site-name{
