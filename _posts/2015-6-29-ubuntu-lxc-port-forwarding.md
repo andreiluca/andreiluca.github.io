@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ubuntu LXC Port Forwarding"
-tags: container, containers
+tags: container containers
 ---
 
 ````
