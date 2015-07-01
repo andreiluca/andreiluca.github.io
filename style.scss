@@ -335,6 +335,10 @@ p#ad{
 #search-results li{
   border-bottom:1px solid #DDD;
   padding:20px 0;
+
+  .date{
+    opacity:0.5;
+  }
 }
 
 .js-toggle-lights{
