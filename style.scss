@@ -319,7 +319,7 @@ p#ad{
 #search input{
   font-size: 26px;
   border: 0;
-  border-bottom: 7px solid #DDD;
+  border-bottom: 7px solid #e5e5e5;
   width: 100%;
   padding: 20px 0;
   background: transparent;
@@ -333,7 +333,7 @@ p#ad{
 }
 
 #search-results li{
-  border-bottom: 1px solid #DDD;
+  border-bottom: 1px solid $lightGray;
   padding: 20px 0;
 
   .search--date{
