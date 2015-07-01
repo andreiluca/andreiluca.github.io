@@ -33,6 +33,9 @@ html.night-mode{
 		color:#EEE;
 	}
 	p#irl{
+		@include mobile{
+			box-shadow: none;
+		}
 	    img{
         	display:none;
     	}
