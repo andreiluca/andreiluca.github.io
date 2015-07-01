@@ -288,75 +288,76 @@ footer {
 }
 
 p#irl{
-  font-family: Georgia, serif;
-  font-size:23px;
+  font-family: $georgia;
+  font-size: 23px;
   span{
-    display:none;
+    display: none;
   }
   @include mobile {
     img{
-        display:none;
+        display: none;
     }
     span{
-        display:block;
+        display: block;
     }
 
-    font-size:14px;
-    background:#333;
-    color:#eee;
-    padding:10px;
-    margin:0;
+    font-size: 14px;
+    background: $darkGray;
+    color: $lightGray;
+    padding: 10px;
+    margin: 0;
     box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.15);
   }
 }
 
 p#ad{
-  background-color:#FFF8E6;
-  color:#666;
-  padding:10px;
+  background-color: #FFF8E6;
+  color: $gray;
+  padding: 10px;
 }
 
 #search input{
-  font-size:26px;
-  border:0;
-  border-bottom:7px solid #DDD;
-  width:100%;
-  padding:20px 0;
-  background:transparent;
-  outline:none;
+  font-size: 26px;
+  border: 0;
+  border-bottom: 7px solid #DDD;
+  width: 100%;
+  padding: 20px 0;
+  background: transparent;
+  outline: none;
 }
 
 #search-results{
-  list-style:none;
-  padding:0;
-  margin:0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 #search-results li{
-  border-bottom:1px solid #DDD;
-  padding:20px 0;
+  border-bottom: 1px solid #DDD;
+  padding: 20px 0;
 
-  .date{
-    opacity:0.5;
+  .search--date{
+    opacity: 0.5;
+    font-size: 12px;
   }
 }
 
 .js-toggle-lights{
-  font-size:17px;
-  cursor:pointer;
+  font-size: 17px;
+  cursor: pointer;
 }
 
 .g--comments{
-  display:none;
+  display: none;
 }
 
 .g--comments-trigger{
-  display:block;
-  padding:20px;
-  text-align:center;
-  border:1px solid #DDD;
-  border-radius:4px;
-  margin-top:30px;
+  display: block;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #DDD;
+  border-radius: 4px;
+  margin-top: 30px;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

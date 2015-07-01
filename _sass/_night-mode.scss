@@ -1,17 +1,17 @@
 html.night-mode{
 	body{
-		background:#333;
-		color:#CCC;
+		background: $darkGray;
+		color: #CCC;
 	}
 	.masthead,
 	.posts > .post{
-		border-color:#666;
+		border-color: $gray;
 	}
 
 	.highlight{
-		background-color:#111;
-		border-color:#666;
-		color:#FFF;
+		background-color: #111;
+		border-color: $gray;
+		color: $white;
 		overflow:hidden;
 	}
 
@@ -20,38 +20,38 @@ html.night-mode{
 	}
 
 	.wrapper-footer{
-		border-color:#999;
-		background-color: #666;
+		border-color: $lighterGray;
+		background-color: $gray;
 	}
 	#search input,
 	#search-results li{
-		 border-color:#666;
-		 color:#EEE;
+		 border-color: $gray;
+		 color: $lightGray;
 	}
 	p#ad{
-		background-color:#999;
-		color:#EEE;
+		background-color: $lighterGray;
+		color: $lightGray;
 	}
 	p#irl{
 		@include mobile{
 			box-shadow: none;
 		}
 	    img{
-        	display:none;
+        	display: none;
     	}
     	span{
-        	display:block;
+        	display: block;
     	}
     }
 	h1,
 	nav a,
 	.site-name{
-		color:#CCC;
+		color: #CCC;
 	}
 	a,
 	a:hover,
 	a:active{
-		color:#FFF;
+		color: $white;
 	}
 
 }
