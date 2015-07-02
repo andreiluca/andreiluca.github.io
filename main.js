@@ -68,6 +68,7 @@ if (sessionStorage.irl) {
 
 /**
  * Jekyll Search
+ * https://github.com/christian-fei/Simple-Jekyll-Search
  * http://ubuntu.andreiluca.com/search.json
  */
 
@@ -85,7 +86,7 @@ SimpleJekyllSearch({
 
 /**
  * You are being watched
- * cctv-everywhere.min.js
+ * https://github.com/moklick/cctv-everywhere
  */
 
 if (window.matchMedia("(min-width: 1024px)").matches) {
