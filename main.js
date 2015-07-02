@@ -7,7 +7,7 @@ var d = document.documentElement,
     t = document.querySelectorAll(".js-toggle-lights")[0],
     l = document.querySelectorAll(".site-description")[0],
     m = localStorage.getItem("nightmode"),
-    t1 = "Ubuntu experience. ",
+    t1 = "Ubuntu experience.",
     t2 = "Ubuntu experience. Sleep mode.";
 
 if(m == "true") {
@@ -19,7 +19,7 @@ t.addEventListener("click", function(){
   if(d.classList.contains("night-mode")) {
     d.classList.remove("night-mode");
     localStorage.setItem("nightmode", "false");
-    l.textContent = l.innerHTML;
+    l.textContent = t1;
   } else {
     d.classList.add("night-mode");
     localStorage.setItem("nightmode", "true");
@@ -35,6 +35,7 @@ function timeAgo(n){var i=[{name:"second",limit:60,in_seconds:1},{name:"minute",
 
 function toTimestamp(dateString){
   dateString = dateString.split('-').join('/');
+
   var date = new Date(dateString);
   valid = !isNaN(date.valueOf());
 
@@ -42,7 +43,7 @@ function toTimestamp(dateString){
       date = (date.getTime() / 1000).toFixed(0);
       date = timeAgo(date);
   }else{
-    date = dateString;
+      date = dateString;
   }
   return date;
 }
@@ -53,9 +54,9 @@ function toTimestamp(dateString){
  */
 
 if (sessionStorage.irl) {
-            document.getElementById('irl').innerHTML = sessionStorage.irl;
+        document.getElementById('irl').innerHTML = sessionStorage.irl;
 } else {
-        var al = function(data) {
+      var al = function(data) {
             var activity = parseInt(data.googlefit.steps);
             if(activity > 10) activity = "I've made " + activity.toLocaleString() + " steps today and"; else activity = "I'm either sleeping or working. Most likely sleeping.";
             var irl = activity + " I spent over " + data.health.age.days.toLocaleString() + " days on Earth, my heart beat rate is " + data.googlefit.heartRate.bpm + " bpm measured " + timeAgo(data.googlefit.heartRate.timestamp) + ".";
