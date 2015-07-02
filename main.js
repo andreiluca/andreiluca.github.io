@@ -6,22 +6,24 @@
 var d = document.documentElement,
     t = document.querySelectorAll(".js-toggle-lights")[0],
     l = document.querySelectorAll(".site-description")[0],
-    m = localStorage.getItem("nightmode");
+    m = localStorage.getItem("nightmode"),
+    t1 = "Ubuntu experience. ",
+    t2 = "Ubuntu experience. Sleep mode.";
 
 if(m == "true") {
   d.classList.add("night-mode");
-  l.textContent = "Ubuntu experience. Sleep mode.";
+  l.textContent = t2;
 }
 
 t.addEventListener("click", function(){
   if(d.classList.contains("night-mode")) {
     d.classList.remove("night-mode");
     localStorage.setItem("nightmode", "false");
-    l.textContent = "Ubuntu experience.";
+    l.textContent = l;
   } else {
     d.classList.add("night-mode");
     localStorage.setItem("nightmode", "true");
-    l.textContent = "Ubuntu experience. Sleep mode.";
+    l.textContent = t2;
   }
 });
 
