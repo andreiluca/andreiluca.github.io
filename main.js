@@ -19,7 +19,7 @@ t.addEventListener("click", function(){
   if(d.classList.contains("night-mode")) {
     d.classList.remove("night-mode");
     localStorage.setItem("nightmode", "false");
-    l.textContent = l;
+    l.textContent = l.innerHTML;
   } else {
     d.classList.add("night-mode");
     localStorage.setItem("nightmode", "true");
