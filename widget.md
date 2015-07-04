@@ -4,6 +4,8 @@ title: Widget
 permalink: /widget/
 ---
 
+You can access the API at `http://ubuntu.andreiluca.com/api.json` 
+
 ```
 <div id="ubuntu--al"></div>
 <script>
