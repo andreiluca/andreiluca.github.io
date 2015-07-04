@@ -87,7 +87,9 @@ if (sessionStorage.irl) {
 
         var alt = document.createElement('script'); alt.type = 'text/javascript'; alt.async = true;
         alt.src = "http://track.andreiluca.com/api/?callback=al";
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(alt, s);
+        var s = document.getElementsByTagName('script')[0]; 
+        // s.parentNode.insertBefore(alt, s);
+        document.body.appendChild(alt);
 };
 
 /**
@@ -107,6 +109,13 @@ SimpleJekyllSearch({
         limit: 5,
         fuzzy: true,
 });
+
+/**
+ * var s = window.location.href.match(/\?s=(.*)/);
+ * var s1 = document.getElementById("search-input");
+ * s1.value = s[1];
+ * s1.focus();
+ */
 
 /**
  * You are being watched
