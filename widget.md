@@ -4,7 +4,7 @@ title: Widget
 permalink: /widget/
 ---
 
-You can access the API at `http://ubuntu.andreiluca.com/api.json` 
+You can access the API at `http://ubuntu.andreiluca.com/api` 
 
 ```
 <div id="ubuntu--al"></div>
@@ -23,7 +23,7 @@ if (sessionStorage.al) {
 	    };
 
         var alt = document.createElement('script'); alt.type = 'text/javascript'; alt.async = true;
-        alt.src = "http://ubuntu.andreiluca.com/api.json";
+        alt.src = "http://ubuntu.andreiluca.com/api";
         var s = document.getElementsByTagName('script')[0]; 
         s.parentNode.insertBefore(alt, s);
 };
