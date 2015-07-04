@@ -105,9 +105,12 @@ SimpleJekyllSearch({
         json: '/search.json',
         searchResultTemplate: '<li><a href="{url}">{title}</a> <span class="search--date">{date}</span></li>',
         noResultsText: '<li><img src="http://thecatapi.com/api/images/get?format=src&type=gif" alt="Wait for it &hellip;"></li>',
-        limit: 5,
+        limit: 10,
         fuzzy: true,
 });
+
+var s1 = document.getElementById("search-input");
+s1.focus();
 
 /**
  * var s = window.location.href.match(/\?s=(.*)/);
