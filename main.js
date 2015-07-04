@@ -102,7 +102,7 @@ if (sessionStorage.irl) {
 SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('search-results'),
-        json: '/api.json',
+        json: '/search.json',
         searchResultTemplate: '<li><a href="{url}">{title}</a> <span class="search--date">{date}</span></li>',
         noResultsText: '<li><img src="http://thecatapi.com/api/images/get?format=src&type=gif" alt="Wait for it &hellip;"></li>',
         limit: 5,
