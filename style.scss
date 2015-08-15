@@ -290,17 +290,7 @@ footer {
 p#irl{
   font-family: $georgia;
   font-size: 23px;
-  span{
-    display: none;
-  }
   @include mobile {
-    i{
-        display: none;
-    }
-    span{
-        display: block;
-    }
-
     font-size: 14px;
     background: $darkGray;
     color: $lightGray;
