@@ -353,5 +353,5 @@ p#ad{
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "night-mode";
-@import "highlights";
+//@import "highlights";
 @import "svg-icons";
