@@ -49,7 +49,7 @@ function timeAgo(time){
     while ((unit = units[i++]) !== null) {
       if (diff < unit.limit || !unit.limit){
         diff = Math.floor(diff / unit.in_seconds);
-        return diff + " " + unit.name + (diff>1 ? "s" : "") + " ago";
+        return diff + " " + unit.name + (diff>1 ? "s" : "") + " old";
       }
     }
 }
@@ -87,7 +87,7 @@ if (sessionStorage.irl) {
 
         var alt = document.createElement('script'); alt.type = 'text/javascript'; alt.async = true;
         alt.src = "http://track.andreiluca.com/api/?callback=al";
-        var s = document.getElementsByTagName('script')[0]; 
+        var s = document.getElementsByTagName('script')[0];
         // s.parentNode.insertBefore(alt, s);
         document.body.appendChild(alt);
 };
@@ -109,8 +109,8 @@ SimpleJekyllSearch({
         fuzzy: true,
 });
 
-var s1 = document.getElementById("search-input");
-s1.focus();
+// var s1 = document.getElementById("search-input");
+// s1.focus();
 
 /**
  * Toggles
