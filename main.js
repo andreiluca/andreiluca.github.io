@@ -121,16 +121,3 @@ function toggl(id) {
        if(e.style.display == 'block') e.style.display = 'none';
        else e.style.display = 'block';
 }
-
-/**
- * Easter egg
- */
-
-if( typeof console === 'object' ) {
-        console.log(
-            '\n' +
-            'I’m watching you.\n' +
-            '\n' +
-            '@andreiluca\n'
-        );
-}
