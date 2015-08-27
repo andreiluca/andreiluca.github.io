@@ -23,7 +23,7 @@ if (sessionStorage.al) {
 	    };
 
         var alt = document.createElement('script'); alt.type = 'text/javascript'; alt.async = true;
-        alt.src = "http://blog.andreiluca.com/api";
+        alt.src = "//blog.andreiluca.com/api";
         var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(alt, s);
 };
