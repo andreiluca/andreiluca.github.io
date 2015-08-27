@@ -129,7 +129,7 @@ function toggl(id) {
 if( typeof console === 'object' ) {
         console.log(
             '\n' +
-            'I\'m watching you.\n' +
+            'I’m watching you.\n' +
             '\n' +
             '@andreiluca\n'
         );
