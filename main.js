@@ -49,7 +49,7 @@ function timeAgo(time){
     while ((unit = units[i++]) !== null) {
       if (diff < unit.limit || !unit.limit){
         diff = Math.floor(diff / unit.in_seconds);
-        return diff + " " + unit.name + (diff>1 ? "s" : "") + " old";
+        return diff + " " + unit.name + (diff>1 ? "s" : "") + " ago";
       }
     }
 }
