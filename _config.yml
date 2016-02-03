@@ -54,7 +54,7 @@ baseurl: "http://blog.andreiluca.com"
 #
 
 markdown: redcarpet
-highlighter: pygments
+highlighter: rouge
 permalink: /:title/
 paginate: 15
 excerpt_separator: "<!--more-->"
