@@ -4,7 +4,7 @@ title: Widget
 permalink: /widget/
 ---
 
-You can access the API at `http://blog.andreiluca.com/api`
+You can access the API at `http://blog.andreiluca.com/api.json`
 
 ```
 <div id="blog--al"></div>
@@ -23,7 +23,7 @@ if (sessionStorage.al) {
 	    };
 
         var alt = document.createElement('script'); alt.type = 'text/javascript'; alt.async = true;
-        alt.src = "//blog.andreiluca.com/api";
+        alt.src = "//blog.andreiluca.com/api.json";
         var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(alt, s);
 };

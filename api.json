@@ -1,6 +1,5 @@
 ---
 layout: null
-permalink: /api/
 ---
 api([
   {% for post in site.posts %}
