@@ -86,7 +86,7 @@ if (sessionStorage.irl) {
       };
 
         var alt = document.createElement('script'); alt.type = 'text/javascript'; alt.async = true;
-        alt.src = "http://track.andreiluca.com/api/?callback=al";
+        alt.src = "https://andreiluca.com/api/track/api/?callback=al";
         var s = document.getElementsByTagName('script')[0];
         // s.parentNode.insertBefore(alt, s);
         document.body.appendChild(alt);
