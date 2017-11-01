@@ -8,14 +8,11 @@ html.night-mode{
 		border-color: $gray;
 	}
 
-	.highlight{
+	pre.highlight{
 		background-color: #111;
 		border-color: $gray;
 		color: $white;
 		overflow:hidden;
-	}
-
-	.highlight pre{
 		overflow: auto;
 	}
 
